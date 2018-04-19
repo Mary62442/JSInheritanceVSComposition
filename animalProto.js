@@ -30,7 +30,7 @@ beaver.eat();
 
 function Persian(name) {this.name = name};
 Persian.prototype = Object.create(new Cat());
-Persian.prototype.longFur = function() {console.log(this.name + "has long fur: " + true)};
+Persian.prototype.longFur = function() {console.log(this.name + " has long fur: " + true)};
 
 var persian = new Persian('Percy');
 persian.meow();
